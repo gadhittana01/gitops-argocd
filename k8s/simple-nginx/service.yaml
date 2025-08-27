@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: simple-nginx-service
-  namespace: gitops-project
+  namespace: argocd
   labels:
     app: simple-nginx
 spec:

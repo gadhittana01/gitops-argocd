@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simple-httpd
-  namespace: gitops-project
+  namespace: argocd
   labels:
     app: simple-httpd
 spec:
