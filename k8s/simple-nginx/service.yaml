@@ -6,11 +6,10 @@ metadata:
   labels:
     app: simple-nginx
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: simple-nginx
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30080
     protocol: TCP
