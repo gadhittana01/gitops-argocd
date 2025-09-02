@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: gadhittana01/simple-nginx:main-ea0659e1ac9e2959cda1cc56bcc182cd842e3356
+        image: gadhittana01/simple-nginx:83d3abca1e52c26d4648f5cadc82f980a731d685
         ports:
         - containerPort: 80
         # resources:
