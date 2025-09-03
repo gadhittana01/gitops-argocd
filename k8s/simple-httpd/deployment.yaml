@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: gadhittana01/simple-httpd:latest
+        image: docker.io/gadhittana01/simple-httpd:e7fdd50c036a552e73b1ca5f4a68b37074b4f91a
         ports:
         - containerPort: 80
         # resources:
